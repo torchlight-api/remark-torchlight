@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it tests 1`] = `
+"<p>this <em>is</em> <a href=\\"https://www.google.com\\">test</a></p>
+<pre class=\\"classes\\" style=\\"style: 1;\\"><code class=\\"language-js\\">highlighted</code></pre>
+"
+`;

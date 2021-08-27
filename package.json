@@ -1,0 +1,43 @@
+{
+    "name": "remark-torchlight",
+    "version": "0.0.1",
+    "description": "A remark plugin for Torchlight - the syntax highlighting API.",
+    "main": "index.js",
+    "scripts": {
+        "test": "standard --env jest && jest"
+    },
+    "keywords": [
+        "syntax",
+        "highlighting",
+        "torchlight"
+    ],
+    "standard": {
+        "ignore": [
+            "tests"
+        ]
+    },
+    "jest": {
+        "clearMocks": true,
+        "transform": {
+            "^.+\\.[t|j]sx?$": "babel-jest"
+        },
+        "transformIgnorePatterns": []
+    },
+    "author": "Aaron Francis <aaron@hammerstone.dev> (https://torchlight.dev)",
+    "license": "MIT",
+    "dependencies": {
+        "@torchlight-api/torchlight-cli": "^0.1.2",
+        "hast-util-from-parse5": "^7.1.0",
+        "parse5": "^6.0.1",
+        "unist-util-map": "^3.0.0"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.15.0",
+        "@babel/preset-env": "^7.15.0",
+        "babel-jest": "^27.0.6",
+        "jest": "^27.0.6",
+        "remark": "^14.0.1",
+        "remark-html": "^14.0.0",
+        "standard": "^16.0.3"
+    }
+}
