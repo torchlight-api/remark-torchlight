@@ -1,1 +1,1 @@
-See [torchlight.dev/docs/clients/cli](https://torchlight.dev/docs/clients/cli) for full docs.
+See [torchlight.dev/docs/clients/remark](https://torchlight.dev/docs/clients/remark) for full docs.

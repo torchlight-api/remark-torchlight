@@ -36,5 +36,5 @@ test('it tests', async () => {
 
   expect(result.toString()).toMatchSnapshot()
   expect(mock).toHaveBeenCalledTimes(1);
-  
+
 })
