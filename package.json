@@ -1,6 +1,6 @@
 {
     "name": "remark-torchlight",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A remark plugin for Torchlight - the syntax highlighting API.",
     "module": "index.js",
 	"type": "module",
