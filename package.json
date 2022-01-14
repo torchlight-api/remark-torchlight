@@ -2,7 +2,7 @@
     "name": "remark-torchlight",
     "version": "0.0.3",
     "description": "A remark plugin for Torchlight - the syntax highlighting API.",
-    "module": "index.js",
+    "exports": "index.js",
 	"type": "module",
     "scripts": {
         "test": "standard --env jest && jest"
