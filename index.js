@@ -1,9 +1,8 @@
 import parse5 from 'parse5'
 import { map } from 'unist-util-map'
 import { fromParse5 } from 'hast-util-from-parse5'
-// work arround nodejs weird cjs importing behavoir
-import tlCLI from '@torchlight-api/torchlight-cli'
-const { torchlight, Block } = tlCLI
+
+import { torchlight, Block } from '@torchlight-api/torchlight-cli'
 
 export default function plugin (options = {}) {
   torchlight.init(options.config)
