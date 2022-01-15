@@ -2,6 +2,6 @@
 
 exports[`it tests 1`] = `
 "<p>this <em>is</em> <a href=\\"https://www.google.com\\">test</a></p>
-<pre class=\\"classes\\" style=\\"style: 1;\\"><code class=\\"language-js\\">highlighted</code></pre>
+<pre><code>highlighted</code></pre>
 "
 `;
