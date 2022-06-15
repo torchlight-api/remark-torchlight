@@ -1,10 +1,13 @@
 {
     "name": "remark-torchlight",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A remark plugin for Torchlight - the syntax highlighting API.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "test": "standard --env jest && jest"
+        "test": "standard --env jest && jest",
+        "release:dev": "./bin/release dev",
+        "release:prod": "./bin/release prod"
     },
     "keywords": [
         "syntax",
@@ -26,7 +29,7 @@
     "author": "Aaron Francis <aaron@hammerstone.dev> (https://torchlight.dev)",
     "license": "MIT",
     "dependencies": {
-        "@torchlight-api/torchlight-cli": "^0.1.2",
+        "@torchlight-api/torchlight-cli": "^0.1.7",
         "hast-util-from-parse5": "^7.1.0",
         "parse5": "^6.0.1",
         "unist-util-map": "^3.0.0"

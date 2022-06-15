@@ -1,4 +1,4 @@
-import torchlight from '../index'
+import torchlight from '../index.js'
 import { remark } from 'remark'
 import html from 'remark-html'
 import {mockApi} from '@torchlight-api/torchlight-cli/tests/support/helpers'
