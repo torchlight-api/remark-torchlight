@@ -30,7 +30,7 @@ test('it tests', async () => {
   })
 
   const result = await remark()
-    .use(html)
+    .use(html, {sanitize: false})
     .use(torchlight)
     .process(markdown)
 
