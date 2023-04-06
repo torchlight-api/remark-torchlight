@@ -5,7 +5,7 @@ import { fromParse5 } from 'hast-util-from-parse5'
 import { torchlight, Block } from '@torchlight-api/torchlight-cli'
 
 export default function plugin (options = {}) {
-  torchlight.init(options.config, options.config.cache  )
+  torchlight.init(options.config)
 
   return tree => transform(tree, options)
 }
